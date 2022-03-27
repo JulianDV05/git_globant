@@ -6,13 +6,14 @@ public class Tests {
     private int numeroUno = 5;
     private int numeroDos = 3;
     @Test
+    
     public void testNumeroVerdadero() {
-        Assert.assertTrue(numeroUno==numeroDos+2,"El numero es verdadero.");
+        Assert.assertTrue(numeroUno==numeroDos+2,"The number is true.");
     }
 
     @Test
     public void testNumeroFalso() {
-        Assert.assertFalse(numeroUno==numeroDos, "El numero es false.");
+        Assert.assertFalse(numeroUno==numeroDos, "The number is false.");
     }
 
     @Test
@@ -22,7 +23,7 @@ public class Tests {
 
     @Test 
     public void testNumerosNoIguales() {    
-        Assert.assertNoEquals(numeroUno-1, numeroDos*514, "Los numeros no son iguales.");
+        Assert.assertNoEquals(numeroUno-1, numeroDos*514, "The numbers are the same.");
     }
 
     @Test 
